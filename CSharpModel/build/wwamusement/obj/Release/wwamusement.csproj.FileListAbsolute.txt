@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\wwamusement.dll
+C:\KB\Parksz\CSharpModel\build\wwamusement\obj\Release\wwamusement.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\wwamusement\obj\Release\wwamusement.dll

@@ -1,0 +1,21 @@
+bc_dt_elem_i([ 0,6,0 ],'Repairid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairdatefrom',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairdaysquantity',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairdateto',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Gameid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Gamename',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Gamename',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repaircost',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Technicianid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Technicianname',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Technicianname',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairalternatetechnicianid',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairalternatetechnicianname',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Repairalternatetechnicianname',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairdiscountpercentage',allownulls,no).
+bc_dt_elem_i([ 0,6,0 ],'Repairfinalcost',readonly,yes).
+bc_dt_elem_i([ 0,6,0 ],'Repairproblems',readonly,yes).
+bc_dt_elem_i([ 0,6,[ 22,33 ] ],'Repairkindid',allownulls,no).
+bc_dt_elem_i([ 0,6,[ 22,33 ] ],'Repairkindname',allownulls,no).
+bc_dt_elem_i([ 0,6,[ 22,33 ] ],'Repairkindremarks',allownulls,no).
+ 

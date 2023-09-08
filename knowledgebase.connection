@@ -1,0 +1,10 @@
+﻿<ConnectionInformation>
+	<DBName>GX_KB_Parksz</DBName>
+	<IntegratedSecurity>True</IntegratedSecurity>
+	<ServerInstance>DESKTOP-EPLVQU1\SQLEXPRESS</ServerInstance>
+	<CreateDbInKbFolder>True</CreateDbInKbFolder>
+	<Directory>C:\KB\Parksz</Directory>
+	<DataFile>GX_KB_Parksz.mdf</DataFile>
+	<LogFile>GX_KB_Parksz_log.ldf</LogFile>
+	<HostName>DESKTOP-EPLVQU1</HostName>
+</ConnectionInformation>

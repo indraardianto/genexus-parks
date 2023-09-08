@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\repair_bc.dll
+C:\KB\Parksz\CSharpModel\build\repair_bc\obj\Release\repair_bc.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\repair_bc\obj\Release\repair_bc.dll

@@ -1,0 +1,11 @@
+dir_subordinates_i(2,2,[ [ 1,[ 7 ] ],[ 5,[ 7 ] ] ]).
+dir_subordinates_i(2,3,[ [ 6,[ 12 ] ] ]).
+dir_subordinates_i(2,6,[ [ 2,[ 12,19 ] ] ]).
+dir_subordinates_i(2,1,[]).
+dir_subordinates_i(2,5,[ [ 7,[ 16 ] ] ]).
+dir_subordinates_i(2,7,[ [ 9,[ 22 ] ] ]).
+dir_subordinates_i(2,9,[]).
+dir_subordinates_i(2,4,[ [ 5,[ 14 ] ] ]).
+dir_subordinates_i(2,8,[ [ 7,[ 27 ] ],[ 7,[ 29 ] ] ]).
+dir_subordinates_i(2,502,[ [ 7,[ 27 ] ],[ 7,[ 29 ] ] ]).
+ 

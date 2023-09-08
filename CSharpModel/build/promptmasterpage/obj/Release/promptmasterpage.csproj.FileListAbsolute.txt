@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\promptmasterpage.dll
+C:\KB\Parksz\CSharpModel\build\promptmasterpage\obj\Release\promptmasterpage.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\promptmasterpage\obj\Release\promptmasterpage.dll

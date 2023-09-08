@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\acategoriesandtheirgames.dll
+C:\KB\Parksz\CSharpModel\build\acategoriesandtheirgames\obj\Release\acategoriesandtheirgames.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\acategoriesandtheirgames\obj\Release\acategoriesandtheirgames.dll

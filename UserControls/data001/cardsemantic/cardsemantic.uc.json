@@ -1,0 +1,64 @@
+{
+	"Name": "CardSemantic",
+	"Target": "",
+	"IsControlType": false,
+	"Template": "<div class=\"ui link cards\">	<div class=\"card\">	<div class=\"image\">	<img src=\"{{Photo}}\">	</div>	<div class=\"content\">	<div class=\"header\">{{Name}}</div>	<div class=\"meta\">	<a>{{AddedDate}}</a>	</div>	<div class=\"description\">	{{Address}}	</div>	</div>	<div class=\"extra content\">	<span class=\"right floated\">	{{Email}}	</span>	<span>	<i class=\"user icon\"></i>	{{Phone}}	</span>	</div> </div>",
+	"Events": [
+	],
+	"Properties": [
+		{
+			"Id": "Photo",
+			"Name": "Photo",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Name",
+			"Name": "Name",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "AddedDate",
+			"Name": "AddedDate",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Address",
+			"Name": "Address",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Email",
+			"Name": "Email",
+			"Type": "string",
+			"Default": ""
+		} ,
+		{
+			"Id": "Phone",
+			"Name": "Phone",
+			"Type": "string",
+			"Default": ""
+		} 
+	],
+	"Methods": {
+		"Public": [
+		],
+		"Private": [
+		]
+	},
+	"Scripts": {
+		"AfterShow": [
+		],
+		"BeforeShow": [
+		]
+	},
+	"Dependencies": [
+	],
+	"Imports": [
+	],
+	"Styles": [
+	]
+}

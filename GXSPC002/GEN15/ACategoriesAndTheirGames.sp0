@@ -1,0 +1,454 @@
+spec_i([ proc,17,'Categories And Their Games','CategoriesAndTheirGames',78,eng,'17_0_8-158023' ]).
+ 
+struct_i(2,1,[],[]).
+struct_i(3,2,[ 14 ],[]).
+ 
+level_i(2,[ 5,[ [ 5,many ],[ 2,one ],[ 4,one ] ],[],[],[ [ [ 5,2,4 ],[ 14,40000,8,18,17,15,7 ] ] ],[ [ [ 5,2,4 ],[] ] ],[ 14 ],'IGAME1',[],[] ]).
+level_i(3,[ 5,[ [ 5,many ],[ 2,one ] ],[],[],[ [ [ 5,2 ],[ 14,40000,8,18,17,7 ] ] ],[ [ [ 5,2 ],[] ] ],[ 14 ],'IGAME1',[ 5,[ [ [],14,14 ] ] ],[] ]).
+ 
+tw_i(2,[ [ 2,[ [ 5,7,7 ] ] ],[ 4,[ [ 5,14,14 ] ] ] ]).
+tw_i(3,[ [ 2,[ [ 5,7,7 ] ] ] ]).
+ 
+lwi_i(3,[ [] ]).
+lwi_i(2,[ [] ]).
+ 
+ 
+ 
+ 
+ta_i(2,[ [ [ 5,7 ],[ 5,14 ],[ 5,40000 ],[ 2,8 ],[ 5,18 ],[ 5,17 ],[ 4,15 ] ] ]).
+ta_i(3,[ [ [ 5,7 ],[ 5,14 ],[ 5,40000 ],[ 2,8 ],[ 5,18 ],[ 5,17 ] ] ]).
+ 
+las_i(2,[ [ 14,40000,8,18,17,15,7 ] ]).
+las_i(3,[ [ 14,40000,8,18,17,7 ] ]).
+ 
+lac_i(2,[ [] ]).
+lac_i(3,[ [] ]).
+ 
+ 
+ 
+ 
+ 
+ 
+default_i(e('Output',2,2,'''FIL''')).
+ 
+rule_i(0,datastore(1,'DS_LAST_CHANGE','')).
+rule_i(0,datastore(1,'LOCK_RETRY','10')).
+rule_i(0,datastore(1,'WAIT_RECORD','0')).
+rule_i(0,datastore(1,'ISOLATION_LEVEL','CR')).
+rule_i(0,datastore(1,'SQLSERVER_VERSION','10')).
+rule_i(0,datastore(1,'COMMENT_ON','No')).
+rule_i(0,datastore(1,'DFT_TMP_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_IDX_TBLSPACE','')).
+rule_i(0,datastore(1,'DFT_TBL_TBLSPACE','')).
+rule_i(0,datastore(1,'DCL_REF_INT_DB','Yes')).
+rule_i(0,datastore(1,'PRIMARY_KEY_TYPE','PK')).
+rule_i(0,datastore(1,'CS_SCHEMA','')).
+rule_i(0,datastore(1,'SORT_ATTRIBUTES','Yes')).
+rule_i(0,datastore(1,'JRN400','QSQJRN')).
+rule_i(0,datastore(1,'CREATE_SAVF','Yes')).
+rule_i(0,datastore(1,'PGMLIB','')).
+rule_i(0,datastore(1,'DTALIB','')).
+rule_i(0,datastore(1,'RecycleRWMin','30')).
+rule_i(0,datastore(1,'RecycleRWType','1')).
+rule_i(0,datastore(1,'RecycleRW','-1')).
+rule_i(0,datastore(1,'POOL_STARTUP','No')).
+rule_i(0,datastore(1,'POOLSIZE_RW','10')).
+rule_i(0,datastore(1,'UnlimitedRWPool','-1')).
+rule_i(0,datastore(1,'PoolRWEnabled','-1')).
+rule_i(0,datastore(1,'CS_RPCPGML','')).
+rule_i(0,datastore(1,'JDBC_DATASOURCE','')).
+rule_i(0,datastore(1,'USE_JDBC_DATASOURCE','0')).
+rule_i(0,datastore(1,'DS_DBMS_ADDINFO','Timeout=120')).
+rule_i(0,datastore(1,'USER_PASSWORD','uRuaVgê5â%\zLÌBQQ\d')).
+rule_i(0,datastore(1,'USER_ID',uRuaVgE5RzTDQUjX)).
+rule_i(0,datastore(1,'TRUSTED_CONNECTION','No')).
+rule_i(0,datastore(1,'CS_CONNECT','First')).
+rule_i(0,datastore(1,'DBMS_PORT','')).
+rule_i(0,datastore(1,'CS_SERVER','trialapps3.genexus.com')).
+rule_i(0,datastore(1,'CS_DBNAME','Id7f9f0d46242d0f8b16dd44b6a24b589b')).
+rule_i(0,datastore(1,'CS_FLEDSNAME','')).
+rule_i(0,datastore(1,'CS_DRVNAME','sql server')).
+rule_i(0,datastore(1,'CS_DSNAME','')).
+rule_i(0,datastore(1,'DB_URL','')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_URL','0')).
+rule_i(0,datastore(1,'JDBC_CUSTOM_DRIVER','')).
+rule_i(0,datastore(1,'JDBC_DRIVER','net.sourceforge.jtds.jdbc.Driver')).
+rule_i(0,datastore(1,'CONNECT_METHOD','OPSYS')).
+rule_i(0,datastore(1,'ACCESS_TECHNO','ADONET')).
+rule_i(0,datastore(1,'MAIN_DS','-1')).
+rule_i(0,datastore(1,'REORG_GEN','8')).
+rule_i(0,datastore(1,'HelpKeyword','20')).
+rule_i(0,datastore(1,'DBMS',12)).
+rule_i(0,datastore(1,'NAME','Default')).
+rule_i(0,prop(idNULLS_BEHAVIOR,idNB_Current)).
+rule_i(0,prop('PWFCallable','0')).
+rule_i(0,prop('ObjectVisibility','Public')).
+rule_i(0,prop('FullyQualifiedName','CategoriesAndTheirGames')).
+rule_i(0,prop('GenerateObject','-1')).
+rule_i(0,prop('CS_ORA_FORUPD','UMPV')).
+rule_i(0,prop('Optimize_copy','UMPV')).
+rule_i(0,prop('JOIN_TYPE','UMPV')).
+rule_i(0,prop('DBMS_JOINS','UMPV')).
+rule_i(0,prop('NULLVALUE_AS_NULL','UMPV')).
+rule_i(0,prop('INITIALIZE_NEW','UMPV')).
+rule_i(0,prop('STD_FUNC_OBJECT','Yes')).
+rule_i(0,prop('SPC_WARNINGS_DISABLED','spc0096 spc0107 spc0142')).
+rule_i(0,prop('TRNEND','Yes')).
+rule_i(0,prop('AUTOCENTER','UMPV')).
+rule_i(0,prop('LSTPFOOT','YES')).
+rule_i(0,prop('CANCEL','YES')).
+rule_i(0,prop('CONFIRM','UMPV')).
+rule_i(0,prop('TRNCFM','UMPV')).
+rule_i(0,prop('PRINT_CUST_LAYOUT','UMPV')).
+rule_i(0,prop('OUTPUT','FIL')).
+rule_i(0,prop(idConnectivitySupport,idInherit)).
+rule_i(0,prop(idISPRCWEBSERVICE,'0')).
+rule_i(0,prop('AppGenerator','1')).
+rule_i(0,prop('AppLocation','')).
+rule_i(0,prop('AppIcon','')).
+rule_i(0,prop('AppTitle','')).
+rule_i(0,prop('WEB_SECURITY_LEVEL','High')).
+rule_i(0,prop('HTTP_PROTOCOL','Secure')).
+rule_i(0,prop('USE_ENCRYPTION','NO')).
+rule_i(0,prop('COMPRESS_HTML','UMPV')).
+rule_i(0,prop('EXECUTE_IN_NEW_UTL','0')).
+rule_i(0,prop('Theme',o(25,'Carmine'))).
+rule_i(0,prop('OBJECT_METADATA','')).
+rule_i(0,prop('CALL_PROTOCOL','HTTP')).
+rule_i(0,prop('IsMain','-1')).
+rule_i(0,prop(sessiontype,'RW')).
+rule_i(0,prop('Folder',o(120,'Root Module'))).
+rule_i(0,prop('ObjDesc','Categories And Their Games')).
+rule_i(0,prop('ObjName','CategoriesAndTheirGames')).
+rule_i(0,maingen(15)).
+rule_i(0,prop('PGMTYPE',main)).
+rule_i(0,output_file(t('CategoriesAndTheirGames',3),t(pdf,3))).
+rule_i(0,output('FIL')).
+ 
+a_i(1,1,f,'Line',[],[ [],[ t(0,3) ] ]).
+a_i(2,1,f,'Err',[],[ [],[ t('0',3) ] ]).
+a_i(3,3,t,5,[],[ [ [ [],14,14 ] ],'IGAME1',[] ]).
+a_i(4,3,r,2,[],[ [ [ 5,7,7 ] ],'IAMUSEMENTPARK',[] ]).
+a_i(5,2,t,5,[],[ [],'IGAME1',[] ]).
+a_i(6,2,r,2,[],[ [ [ 5,7,7 ] ],'IAMUSEMENTPARK',[] ]).
+a_i(7,2,r,4,[],[ [ [ 5,14,14 ] ],'ICATEGORY',[] ]).
+ 
+v_i(f,i,1,[]).
+v_i(f,o,1,'Line').
+v_i(f,i,2,[]).
+v_i(f,o,2,'Err').
+v_i(t,i,3,14).
+v_i(t,o,3,7).
+v_i(t,o,3,40000).
+v_i(t,o,3,18).
+v_i(t,o,3,17).
+v_i(r,i,4,7).
+v_i(r,o,4,8).
+v_i(t,i,5,[]).
+v_i(t,o,5,7).
+v_i(t,o,5,14).
+v_i(t,o,5,40000).
+v_i(t,o,5,18).
+v_i(t,o,5,17).
+v_i(r,i,6,7).
+v_i(r,o,6,8).
+v_i(r,i,7,14).
+v_i(r,o,7,15).
+ 
+ 
+ 
+ 
+ 
+ 
+attri_i('Output',[ 'Gx_out',char,3,0,'',1,'','',8 ]).
+attri_i(16,[ 'GameId',int,4,0,'ZZZ9',0,'Game Id','',0 ]).
+attri_i(7,[ 'AmusementParkId',int,4,0,'ZZZ9',0,'Amusement Park Id','',0 ]).
+attri_i('Page',[ 'Gx_page',int,6,0,'ZZZZZ9',0,'Page number','',7 ]).
+attri_i('Line',[ 'Gx_line',int,6,0,'ZZZZZ9',0,'Line number','',6 ]).
+attri_i(15,[ 'CategoryName',char,50,0,'',0,'Category Name','',0 ]).
+attri_i(14,[ 'CategoryId',int,4,0,'ZZZ9',0,'Category Id','',0 ]).
+attri_i(8,[ 'AmusementParkName',char,20,0,'',0,'Amusement Park Name','',0 ]).
+attri_i(18,[ 'GamePhoto',bits,4,0,'',0,'Game Photo','',0 ]).
+attri_i(17,[ 'GameName',char,50,0,'',0,'Game Name','',0 ]).
+attri_i(40000,[ 'GamePhoto_GXI',svchar,2048,0,'',0,'',[],0 ]).
+attri_i('Errmsg',[ 'Gx_emsg',char,70,0,'',1,'Error text','',3 ]).
+attri_i('Err',[ 'Gx_err',int,3,0,'ZZ9',1,'Error code','',2 ]).
+ 
+table_i(4,[ 'Category',[ 14,15 ],'Category','Category' ]).
+table_i(2,[ 'AmusementPark',[ 7,8 ],'Amusement Park','AmusementPark' ]).
+table_i(5,[ 'Game',[ 16,17,7,14,18,40000 ],'Game','Game' ]).
+ 
+index_i(5,[ 'IGAME',u,[ 16 ],'IGame' ]).
+index_i(5,[ 'IGAME1',d,[ 14 ],'IGame1' ]).
+index_i(2,[ 'IAMUSEMENTPARK',u,[ 7 ],'IAmusementPark' ]).
+index_i(4,[ 'ICATEGORY',u,[ 14 ],'ICategory' ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+add_att_i(bits,2,40000,18,'GamePhoto_GXI',[ svchar,2048,0,0 ]).
+add_att_i(bits,2,40001,11,'AmusementParkPhoto_GXI',[ svchar,2048,0,0 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+dom_info_i(85,[ 'Name' ]).
+dom_info_i(42,[ 'GeneXus\Address' ]).
+ 
+ 
+break_i(3,nvg,2,[],[ [ 17,18,8,40000 ],[],[] ]).
+break_i(2,nvg,1,[ 14 ],[ [ 14,15 ],[],[] ]).
+break_i(1,rpt,0,[],[ [],[],[] ]).
+ 
+b_group_i(1,1,lit,0,1,9).
+b_group_i(1,2,nvg,2,2,2).
+b_group_i(2,1,lit,0,11,20).
+b_group_i(2,2,nvg,3,5,5).
+b_group_i(3,1,lit,0,21,29).
+b_group_i(2,3,lit,0,30,30).
+b_group_i(1,3,lit,0,31,0).
+ 
+b_line_i(0,1,1,cmd,0,[]).
+b_line_i(1,1,1,pb,0,[ t('Title',29,0,7) ]).
+b_line_i([ 1,0 ],1,1,line,0,[ t(' ',3,0,0) ]).
+b_line_i([ 1,4 ],1,1,line,4,[ t('Categories And Their Games
+',3,4,53) ]).
+b_line_i([ 1,8 ],1,1,line,8,[ t(' ',3,8,0) ]).
+b_line_i(2,2,1,cmd,11,[ t('',121,2,0),t(table,3,2,10),t(5,3,2,10),t('ORDER',39,2,15),t(14,2,2,21) ]).
+b_line_i(3,2,1,pb,11,[ t('Category',29,11,8) ]).
+b_line_i([ 3,0 ],2,1,line,11,[ t(' ',3,0,0) ]).
+b_line_i([ 3,1 ],2,1,line,12,[ t('Category :',3,1,10),t(15,2,1,22) ]).
+b_line_i([ 3,2 ],2,1,line,13,[ t(' ',3,2,0) ]).
+b_line_i(4,2,1,pb,14,[ t('Tabel',29,14,8) ]).
+b_line_i([ 4,0 ],2,1,line,14,[ t(' ',3,0,0) ]).
+b_line_i([ 4,1 ],2,1,line,15,[ t('Games',3,1,10) ]).
+b_line_i([ 4,3 ],2,1,line,17,[ t('Name',3,3,21),t('Park Name',3,3,47),t('Photo',3,3,89) ]).
+b_line_i([ 4,5 ],2,1,line,19,[ t(' ',3,5,0) ]).
+b_line_i(5,3,1,cmd,21,[ t('',121,5,0),t(table,3,5,11),t(5,3,5,11) ]).
+b_line_i(6,3,1,pb,21,[ t('Looping',29,21,9) ]).
+b_line_i([ 6,0 ],3,1,line,21,[ t(' ',3,0,0) ]).
+b_line_i([ 6,1 ],3,1,line,22,[ t(17,2,1,20),t(8,2,1,46),t(18,2,1,83),t(40000,2,1,83) ]).
+b_line_i([ 6,7 ],3,1,line,28,[ t(' ',3,7,0) ]).
+b_line_i(7,3,1,cmd,29,[ t('',128,7,0) ]).
+b_line_i(8,2,3,cmd,30,[ t('',128,8,0) ]).
+ 
+ 
+ 
+ 
+ 
+ 
+page_layout_i([ 66,0,6 ]).
+ 
+ 
+ 
+paper_info_i([ 0,256,'',11909,16834,0,0,0,0,1 ]).
+ 
+ppi_i([ 100,100 ]).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+lit_i(2,1,bitmap(i(98,'d4d7688f-9e48-47ed-8664-8ef95772c471')),[ ctlname('Gxreportimage1'),rect(75,17,333,117) ]).
+lit_i(3,1,t('Categories And Their Games
+',3),[ font('Microsoft Sans Serif',16,[ bold ]),rect(375,67,692,100),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel1'),gxcolor([]) ]).
+lit_i(1,1,window,[ title('Text'),rect(0,0,827,137),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Title'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(5,3,t('Category :',3),[ font('Microsoft Sans Serif',10,[ bold ]),rect(75,17,150,35),outstyle(none),align(left),valign(top),noclip,fore(rgb(255,165,0)),border(1),ctlname('Gxreportlabel2'),gxcolor([]) ]).
+lit_i(17,3,t(15,2),[ font('Microsoft Sans Serif',9,[]),rect(158,17,419,34),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),format(0),ctlname('15'),ctrltype(edit,17),ispwd(0),gxcolor([]) ]).
+lit_i(4,3,window,[ title('Text'),rect(0,0,827,46),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Category'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(8,4,t('Games',3),[ font('Microsoft Sans Serif',8,[]),rect(75,17,110,31),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel3'),gxcolor([]) ]).
+lit_i(9,4,t('Name',3),[ font('Microsoft Sans Serif',8,[]),rect(150,50,180,64),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel4'),gxcolor([]) ]).
+lit_i(10,4,t('Park Name',3),[ font('Microsoft Sans Serif',8,[]),rect(333,50,389,64),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel5'),gxcolor([]) ]).
+lit_i(11,4,t('Photo',3),[ font('Microsoft Sans Serif',8,[]),rect(625,50,655,64),outstyle(none),align(left),valign(top),noclip,fore(rgb(0,0,0)),border(1),ctlname('Gxreportlabel6'),gxcolor([]) ]).
+lit_i(13,4,rect(13),[ rect(133,83,691,83),outstyle(none),fill,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(1),ctlname('Gxreportline1'),gxcolor([]),borderstyle(0) ]).
+lit_i(7,4,window,[ title('Text'),rect(0,0,827,90),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Tabel'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+lit_i(14,6,t(17,2),[ font('Microsoft Sans Serif',8,[]),rect(142,17,259,32),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('17'),ctrltype(edit,14),ispwd(0),gxcolor([]) ]).
+lit_i(15,6,t(18,2),[ font('Microsoft Sans Serif',8,[]),rect(583,17,691,100),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('18'),ctrltype(edit,15),ispwd(0),gxcolor([]) ]).
+lit_i(16,6,t(8,2),[ font('Microsoft Sans Serif',8,[]),rect(325,17,500,32),outstyle(none),align(left),valign(top),fore(rgb(0,0,0)),border(1),format(0),ctlname('8'),ctrltype(edit,16),ispwd(0),gxcolor([]) ]).
+lit_i(12,6,window,[ title('Text'),rect(0,0,827,126),outstyle(none),fill,graph,back(rgb(0,0,0)),fore(rgb(0,0,0)),border(0),ctlname('Looping'),align(left),valign(top),gxcolor([]),defgxcolor('BLK','WHT') ]).
+ 
+grid_i(7,15).
+ 
+ 
+ 
+form_class_i(1,'Graphic').
+ 
+ 
+ 
+ 
+calling_main_i(1,17).
+ 
+att_prop_i(2,17,'ExternalName','GameName',d).
+att_prop_i(2,17,'ExternalNamespace','Parksz',d).
+att_prop_i(2,17,'EmptyAsNull','Yes',d).
+att_prop_i(2,17,idBasedOn,85,v).
+att_prop_i(2,17,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,17,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,17,'AttRegEx','',d).
+att_prop_i(2,17,'AttValidationFailedMsg','',d).
+att_prop_i(2,17,'DownloadOffline','0',d).
+att_prop_i(2,17,'VarServiceExtName','',d).
+att_prop_i(2,17,'FullName','GameName',v).
+att_prop_i(2,18,'ExternalName','GamePhoto',d).
+att_prop_i(2,18,'ExternalNamespace','Parksz',d).
+att_prop_i(2,18,'EmptyAsNull','Yes',d).
+att_prop_i(2,18,'ExternalStorage','-1',d).
+att_prop_i(2,18,idBasedOn,'',d).
+att_prop_i(2,18,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,18,'AttRegEx','',d).
+att_prop_i(2,18,'AttValidationFailedMsg','',d).
+att_prop_i(2,18,'DownloadOffline','0',d).
+att_prop_i(2,18,'VarServiceExtName','',d).
+att_prop_i(2,18,'FullName','GamePhoto',v).
+att_prop_i(2,8,'ExternalName','AmusementParkName',d).
+att_prop_i(2,8,'ExternalNamespace','Parksz',d).
+att_prop_i(2,8,'EmptyAsNull','Yes',d).
+att_prop_i(2,8,idBasedOn,'',d).
+att_prop_i(2,8,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,8,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,8,'AttRegEx','',d).
+att_prop_i(2,8,'AttValidationFailedMsg','',d).
+att_prop_i(2,8,'DownloadOffline','0',d).
+att_prop_i(2,8,'VarServiceExtName','',d).
+att_prop_i(2,8,'FullName','AmusementParkName',v).
+att_prop_i(2,14,'ExternalName','CategoryId',d).
+att_prop_i(2,14,'ExternalNamespace','Parksz',d).
+att_prop_i(2,14,'EmptyAsNull','Yes',d).
+att_prop_i(2,14,idBasedOn,'',d).
+att_prop_i(2,14,'AUTONUMBER','-1',v).
+att_prop_i(2,14,'AUTONUMBER_START','1',d).
+att_prop_i(2,14,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,14,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,14,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,14,'AttRegEx','',d).
+att_prop_i(2,14,'AttValidationFailedMsg','',d).
+att_prop_i(2,14,'DownloadOffline','0',d).
+att_prop_i(2,14,'VarServiceExtName','',d).
+att_prop_i(2,14,'FullName','CategoryId',v).
+att_prop_i(2,15,'ExternalName','CategoryName',d).
+att_prop_i(2,15,'ExternalNamespace','Parksz',d).
+att_prop_i(2,15,'EmptyAsNull','Yes',d).
+att_prop_i(2,15,idBasedOn,85,v).
+att_prop_i(2,15,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,15,'DB_NLS_SUPPORT','Yes',d).
+att_prop_i(2,15,'AttRegEx','',d).
+att_prop_i(2,15,'AttValidationFailedMsg','',d).
+att_prop_i(2,15,'DownloadOffline','0',d).
+att_prop_i(2,15,'VarServiceExtName','',d).
+att_prop_i(2,15,'FullName','CategoryName',v).
+att_prop_i(2,7,'ExternalName','AmusementParkId',d).
+att_prop_i(2,7,'ExternalNamespace','Parksz',d).
+att_prop_i(2,7,'EmptyAsNull','Yes',d).
+att_prop_i(2,7,idBasedOn,'',d).
+att_prop_i(2,7,'AUTONUMBER','-1',v).
+att_prop_i(2,7,'AUTONUMBER_START','1',d).
+att_prop_i(2,7,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,7,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,7,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,7,'AttRegEx','',d).
+att_prop_i(2,7,'AttValidationFailedMsg','',d).
+att_prop_i(2,7,'DownloadOffline','0',d).
+att_prop_i(2,7,'VarServiceExtName','',d).
+att_prop_i(2,7,'FullName','AmusementParkId',v).
+att_prop_i(2,16,'ExternalName','GameId',d).
+att_prop_i(2,16,'ExternalNamespace','Parksz',d).
+att_prop_i(2,16,'EmptyAsNull','Yes',d).
+att_prop_i(2,16,idBasedOn,'',d).
+att_prop_i(2,16,'AUTONUMBER','-1',v).
+att_prop_i(2,16,'AUTONUMBER_START','1',d).
+att_prop_i(2,16,'AUTONUMBER_STEP','1',d).
+att_prop_i(2,16,'AUTONUMBER_FORREPLICATION','-1',d).
+att_prop_i(2,16,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,16,'AttRegEx','',d).
+att_prop_i(2,16,'AttValidationFailedMsg','',d).
+att_prop_i(2,16,'DownloadOffline','0',d).
+att_prop_i(2,16,'VarServiceExtName','',d).
+att_prop_i(2,16,'FullName','GameId',v).
+att_prop_i(2,40000,'ExternalName','',d).
+att_prop_i(2,40000,'ExternalNamespace','',d).
+att_prop_i(2,40000,'EmptyAsNull','Yes',d).
+att_prop_i(2,40000,idBasedOn,'',d).
+att_prop_i(2,40000,'AUTONUMBER','0',d).
+att_prop_i(2,40000,'ATT_INITIAL_VALUE','',d).
+att_prop_i(2,40000,'AttRegEx','',d).
+att_prop_i(2,40000,'AttValidationFailedMsg','',d).
+att_prop_i(2,40000,'FullName','',v).
+ 
+tbl_prop_i(2,5,'AllDirSuper',[ [ 4,[ 14 ] ],[ 2,[ 7 ] ] ],v).
+tbl_prop_i(2,5,'DirSuperNull',[ [ 4,[ 14 ] ] ],v).
+tbl_prop_i(2,4,'DirSubor',[ [ 5,[ 14 ] ] ],v).
+tbl_prop_i(2,2,'DirSubor',[ [ 5,[ 7 ] ] ],v).
+tbl_prop_i(2,5,'DirSuper',[ [ 4,[ 14 ] ],[ 2,[ 7 ] ] ],v).
+ 
+tbl_att_prop_i(2,5,16,'AllowNulls',n).
+tbl_att_prop_i(2,5,16,'AUTONUMBER',y).
+tbl_att_prop_i(2,5,17,'AllowNulls',n).
+tbl_att_prop_i(2,5,7,'AllowNulls',n).
+tbl_att_prop_i(2,5,18,'AllowNulls',n).
+tbl_att_prop_i(2,5,40000,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AllowNulls',n).
+tbl_att_prop_i(2,2,7,'AUTONUMBER',y).
+tbl_att_prop_i(2,2,8,'AllowNulls',n).
+tbl_att_prop_i(2,4,14,'AllowNulls',n).
+tbl_att_prop_i(2,4,14,'AUTONUMBER',y).
+tbl_att_prop_i(2,4,15,'AllowNulls',n).
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+pgm_callprotocol_i(proc,17,'CATEGORIESANDTHEIRGAMES','HTTP','Secure').
+ 
+ 
+pgm_main_info_i(proc,17,'CATEGORIESANDTHEIRGAMES',[ 15,'ACATEGORIESANDTHEIRGAMES','Categories And Their Games','','','','HTTP' ]).
+ 
+ 
+module_info_i('GeneXus','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus','AssemblyName','GeneXus.dll').
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

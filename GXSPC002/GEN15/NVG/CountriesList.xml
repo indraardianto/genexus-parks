@@ -1,0 +1,143 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>18</ObjId>
+<ObjName>CountriesList</ObjName>
+<ObjDesc>Countries List</ObjDesc>
+<ObjPgmName>CountriesList</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>HTTP</CallProtocol>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>18</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IAMUSEMENTPARK</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>Country</TableName>
+<Description>Country</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>13</AttriId>
+<AttriName>CountryName</AttriName>
+<Description>Country Name</Description></Attribute></Into>
+<Tables></Tables></Table>
+<Table>
+<TableId>2</TableId>
+<TableName>count( CountryId )  navigation</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></KeyAttributes></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas>
+<Formula>
+<FormulaAttri>
+<Token>count(</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Token>)</Token></FormulaAttri>
+<FormulaType>aggsel</FormulaType>
+<FormulaGivenAttris>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></FormulaGivenAttris>
+<FormulaGroupByAttris>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Attribute>
+<AttriId>19</AttriId>
+<AttriName>CityId</AttriName>
+<Description>City Id</Description></Attribute></FormulaGroupByAttris>
+<FormulaIndex>IAMUSEMENTPARK</FormulaIndex>
+<NavigationTree>
+<Table>
+<TableId>6</TableId>
+<TableName>CountryCity</TableName>
+<Description>City</Description>
+<RecordsToRead>many</RecordsToRead>
+<Tables></Tables></Table></NavigationTree></Formula></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></ObjectSpec>

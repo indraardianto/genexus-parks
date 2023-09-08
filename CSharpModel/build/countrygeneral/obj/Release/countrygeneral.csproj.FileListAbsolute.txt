@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\countrygeneral.dll
+C:\KB\Parksz\CSharpModel\build\countrygeneral\obj\Release\countrygeneral.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\countrygeneral\obj\Release\countrygeneral.dll

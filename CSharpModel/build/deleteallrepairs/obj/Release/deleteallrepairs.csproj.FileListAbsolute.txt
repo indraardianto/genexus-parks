@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\deleteallrepairs.dll
+C:\KB\Parksz\CSharpModel\build\deleteallrepairs\obj\Release\deleteallrepairs.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\deleteallrepairs\obj\Release\deleteallrepairs.dll

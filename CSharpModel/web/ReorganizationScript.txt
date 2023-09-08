@@ -1,0 +1,2 @@
+CREATE UNIQUE NONCLUSTERED INDEX [ICOUNTRY1] ON [Country] ([CountryName] )
+

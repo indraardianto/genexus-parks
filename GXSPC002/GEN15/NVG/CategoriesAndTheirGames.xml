@@ -1,0 +1,209 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>84a12160-f59b-4ad7-a683-ea4481ac23e9</ObjClsGuid>
+<ObjCls>1</ObjCls>
+<ObjId>17</ObjId>
+<ObjName>CategoriesAndTheirGames</ObjName>
+<ObjDesc>Categories And Their Games</ObjDesc>
+<ObjPgmName>CategoriesAndTheirGames</ObjPgmName>
+<ObjClsName>Procedure</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<OutputDevices>
+<Device>File</Device></OutputDevices>
+<Main>Yes</Main>
+<CallProtocol>HTTP</CallProtocol>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>Graphic</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelNumber>2</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>10</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>Game</TableName>
+<Description>Game</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IGAME1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>Game</TableName>
+<Description>Game</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>GameId</AttriName>
+<Description>Game Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>GamePhoto.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>GamePhoto</AttriName>
+<Description>Game Photo</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>GameName</AttriName>
+<Description>Game Name</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>AmusementParkName</AttriName>
+<Description>Amusement Park Name</Description></Attribute></Into>
+<Tables></Tables></Table>
+<Table>
+<TableId>4</TableId>
+<TableName>Category</TableName>
+<Description>Category</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>15</AttriId>
+<AttriName>CategoryName</AttriName>
+<Description>Category Name</Description></Attribute></Into>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels>
+<Level>
+<LevelNumber>3</LevelNumber>
+<Optimizations></Optimizations>
+<LevelType>Break</LevelType>
+<LevelBeginRow>20</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>5</TableId>
+<TableName>Game</TableName>
+<Description>Game</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IGAME1</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>CategoryId</AttriName>
+<Description>Category Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Attribute>
+<AttriId>14</AttriId>
+<AttriName>@CategoryId</AttriName>
+<Description>Category Id</Description></Attribute></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>5</TableId>
+<TableName>Game</TableName>
+<Description>Game</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>16</AttriId>
+<AttriName>GameId</AttriName>
+<Description>Game Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute>
+<Attribute>
+<AttriId>40000</AttriId>
+<AttriName>GamePhoto.Uri  </AttriName>
+<Description></Description></Attribute>
+<Attribute>
+<AttriId>18</AttriId>
+<AttriName>GamePhoto</AttriName>
+<Description>Game Photo</Description></Attribute>
+<Attribute>
+<AttriId>17</AttriId>
+<AttriName>GameName</AttriName>
+<Description>Game Name</Description></Attribute></Into>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>AmusementParkName</AttriName>
+<Description>Amusement Park Name</Description></Attribute></Into>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Levels></Levels></Level></Levels></Level></Levels></ObjectSpec>

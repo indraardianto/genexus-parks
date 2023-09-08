@@ -1,0 +1,120 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>29</ObjId>
+<ObjName>ViewAmusementInfo</ObjName>
+<ObjDesc>View Amusement Info</ObjDesc>
+<ObjPgmName>ViewAmusementInfo</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters>
+<Parameter>
+<IO>in</IO>
+<Variable>
+<VarId>Amusementid</VarId>
+<VarName>&amp;AmusementId</VarName></Variable></Parameter></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>Load</EventName>
+<ImplicitForEach>
+<LevelType>For First</LevelType>
+<LevelBeginRow>0</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description></Table></BaseTable>
+<ConditionalOrders>
+<ConditionalOrder>
+<Order>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute>
+<Token>,</Token>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>AmusementParkName</AttriName>
+<Description>Amusement Park Name</Description></Attribute></Order>
+<Condition>
+<Token>not</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Countryid</VarId>
+<VarName>&amp;CountryId</VarName></Variable>
+<Token>.</Token>
+<Token>isempty(</Token>
+<Token>)</Token></Condition></ConditionalOrder>
+<ConditionalOrder>
+<Order>
+<Attribute>
+<AttriId>8</AttriId>
+<AttriName>AmusementParkName</AttriName>
+<Description>Amusement Park Name</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IAMUSEMENTPARK2</IndexName></ConditionalOrder></ConditionalOrders>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Amusementid</VarId>
+<VarName>&amp;AmusementId</VarName></Variable></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute>
+<Sp></Sp>
+<Token>=</Token>
+<Sp></Sp>
+<Variable>
+<VarId>Amusementid</VarId>
+<VarName>&amp;AmusementId</VarName></Variable></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<JoinLocation>1</JoinLocation>
+<NavigationTree>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>3</TableId>
+<TableName>Country</TableName>
+<Description>Country</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>12</AttriId>
+<AttriName>CountryId</AttriName>
+<Description>Country Id</Description></Attribute></KeyAttributes>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas></ImplicitForEach></Event>
+<Suggests></Suggests></ObjectSpec>

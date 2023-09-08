@@ -1,0 +1,79 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>30</ObjId>
+<ObjName>BusComp</ObjName>
+<ObjDesc>Bus Comp</ObjDesc>
+<ObjPgmName>BusComp</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<Result>genreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<StandAloneRules></StandAloneRules>
+<Event>
+<EventName>'Action'</EventName>
+<Level>
+<Optimizations></Optimizations>
+<LevelType>For Each</LevelType>
+<LevelBeginRow>2</LevelBeginRow>
+<BaseTable>
+<Table>
+<TableId>7</TableId>
+<TableName>Repair</TableName>
+<Description>Repair</Description></Table></BaseTable>
+<Order>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>RepairId</AttriName>
+<Description>Repair Id</Description></Attribute></Order>
+<Condition></Condition>
+<IndexName>IREPAIR</IndexName>
+<LevelOptions></LevelOptions>
+<OptimizedWhere>
+<StartFrom>
+<Condition>
+<Token>FirstRecord</Token></Condition></StartFrom>
+<LoopWhile>
+<Condition>
+<Token>NotEndOfTable</Token></Condition></LoopWhile></OptimizedWhere>
+<NonOptimizedWhere></NonOptimizedWhere>
+<NavigationTree>
+<Table>
+<TableId>7</TableId>
+<TableName>Repair</TableName>
+<Description>Repair</Description>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>22</AttriId>
+<AttriName>RepairId</AttriName>
+<Description>Repair Id</Description></Attribute></KeyAttributes>
+<Into>
+<Attribute>
+<AttriId>26</AttriId>
+<AttriName>RepairCost</AttriName>
+<Description>Repair Cost</Description></Attribute></Into>
+<Tables></Tables></Table></NavigationTree>
+<TablesToUpdate></TablesToUpdate>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<Command>
+<Expression>
+<Variable>
+<VarId>Bcrepairs</VarId>
+<VarName>&amp;bcRepairs</VarName></Variable>
+<Token>.</Token>
+<Token>update(</Token>
+<Token>)</Token></Expression></Command></Level></Event>
+<Event>
+<EventName>Load</EventName></Event>
+<Suggests></Suggests></ObjectSpec>

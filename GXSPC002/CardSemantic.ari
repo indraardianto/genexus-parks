@@ -1,0 +1,19 @@
+usercontrol_directory_i('cardsemantic', ['UserControls']).
+usercontrol_i('cardsemantic', ['CardSemantic','Cardsemantic']).
+usercontrol_property_mapping_i('cardsemantic', 'Class', 'Class', 'Class', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Enabled', 'Enabled', 'Enabled', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'UserControlType', 'Usercontroltype', 'Usercontroltype', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'ConstructorName', 'Constructorname', 'Constructorname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'ShowMethodName', 'Showmethodname', 'Showmethodname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'ControlName', 'Controlname', 'Controlname', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'Photo', 'Photo', 'Photo', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Name', 'Name', 'Name', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'AddedDate', 'Addeddate', 'Addeddate', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Address', 'Address', 'Address', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Email', 'Email', 'Email', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Phone', 'Phone', 'Phone', [char,1024,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'Visible', 'Visible', 'Visible', [boolean,0,0,0], 0, any).
+usercontrol_property_mapping_i('cardsemantic', 'CssSupportFiles', 'Csssupportfiles', 'Csssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'JsSupportFiles', 'Jssupportfiles', 'Jssupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'CssSharedSupportFiles', 'Csssharedsupportfiles', 'Csssharedsupportfiles', [char,1024,0,0], 1, any).
+usercontrol_property_mapping_i('cardsemantic', 'JsSharedSupportFiles', 'Jssharedsupportfiles', 'Jssharedsupportfiles', [char,1024,0,0], 1, any).

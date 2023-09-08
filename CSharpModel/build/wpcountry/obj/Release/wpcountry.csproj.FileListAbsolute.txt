@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\wpcountry.dll
+C:\KB\Parksz\CSharpModel\build\wpcountry\obj\Release\wpcountry.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\wpcountry\obj\Release\wpcountry.dll

@@ -1,0 +1,216 @@
+ 
+spec_i([ sdt,[ 0,6,0 ],'Repair','Repair',0,eng,'17_0_8-158023' ]).
+ 
+struct_dt_i([ 0,6,0 ],name,'Repair').
+struct_dt_i([ 0,6,0 ],namespace,'Parksz').
+struct_dt_i([ 0,6,0 ],significantName,'Repair').
+struct_dt_i([ 0,6,0 ],'ObjName','Repair').
+struct_dt_i([ 0,6,0 ],'ObjDesc','Repair').
+struct_dt_i([ 0,6,0 ],'ExternalName','Repair').
+struct_dt_i([ 0,6,0 ],'ExternalNamespace','Parksz').
+struct_dt_i([ 0,6,0 ],key,[ 22 ]).
+struct_dt_i([ 0,6,0 ],lvl,7).
+struct_dt_i([ 0,6,[ 22,33 ] ],name,'Kind').
+struct_dt_i([ 0,6,[ 22,33 ] ],namespace,'Parksz.Repair').
+struct_dt_i([ 0,6,[ 22,33 ] ],lvl,9).
+struct_dt_i([ 0,6,0 ],fullname,'Repair').
+struct_dt_i([ 0,6,[ 22,33 ] ],fullname,'Repair.Kind').
+ 
+struct_dt_elem_i([ 0,6,0 ],1,name,'Repairid').
+struct_dt_elem_i([ 0,6,0 ],1,camelname,'RepairId').
+struct_dt_elem_i([ 0,6,0 ],1,length,4).
+struct_dt_elem_i([ 0,6,0 ],1,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],1,sign,0).
+struct_dt_elem_i([ 0,6,0 ],1,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],1,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],1,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],1,attributeid,'22').
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalName','RepairId').
+struct_dt_elem_i([ 0,6,0 ],1,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],2,name,'Repairdatefrom').
+struct_dt_elem_i([ 0,6,0 ],2,camelname,'RepairDateFrom').
+struct_dt_elem_i([ 0,6,0 ],2,length,8).
+struct_dt_elem_i([ 0,6,0 ],2,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],2,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,6,0 ],2,pic,'99/99/99').
+struct_dt_elem_i([ 0,6,0 ],2,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],2,attributeid,'23').
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalName','RepairDateFrom').
+struct_dt_elem_i([ 0,6,0 ],2,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],3,name,'Repairdaysquantity').
+struct_dt_elem_i([ 0,6,0 ],3,camelname,'RepairDaysQuantity').
+struct_dt_elem_i([ 0,6,0 ],3,length,4).
+struct_dt_elem_i([ 0,6,0 ],3,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],3,sign,0).
+struct_dt_elem_i([ 0,6,0 ],3,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],3,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],3,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],3,attributeid,'24').
+struct_dt_elem_i([ 0,6,0 ],3,'ExternalName','RepairDaysQuantity').
+struct_dt_elem_i([ 0,6,0 ],3,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],4,name,'Repairdateto').
+struct_dt_elem_i([ 0,6,0 ],4,camelname,'RepairDateTo').
+struct_dt_elem_i([ 0,6,0 ],4,length,8).
+struct_dt_elem_i([ 0,6,0 ],4,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],4,type,[ 6,8,0 ]).
+struct_dt_elem_i([ 0,6,0 ],4,pic,'99/99/99').
+struct_dt_elem_i([ 0,6,0 ],4,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],4,attributeid,'25').
+struct_dt_elem_i([ 0,6,0 ],4,'ExternalName','RepairDateTo').
+struct_dt_elem_i([ 0,6,0 ],4,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],5,name,'Gameid').
+struct_dt_elem_i([ 0,6,0 ],5,camelname,'GameId').
+struct_dt_elem_i([ 0,6,0 ],5,length,4).
+struct_dt_elem_i([ 0,6,0 ],5,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],5,sign,0).
+struct_dt_elem_i([ 0,6,0 ],5,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],5,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],5,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],5,attributeid,'16').
+struct_dt_elem_i([ 0,6,0 ],5,'ExternalName','GameId').
+struct_dt_elem_i([ 0,6,0 ],5,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],6,name,'Gamename').
+struct_dt_elem_i([ 0,6,0 ],6,camelname,'GameName').
+struct_dt_elem_i([ 0,6,0 ],6,basedon,85).
+struct_dt_elem_i([ 0,6,0 ],6,length,50).
+struct_dt_elem_i([ 0,6,0 ],6,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],6,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,6,0 ],6,pic,'').
+struct_dt_elem_i([ 0,6,0 ],6,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],6,attributeid,'17').
+struct_dt_elem_i([ 0,6,0 ],6,'ExternalName','GameName').
+struct_dt_elem_i([ 0,6,0 ],6,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],7,name,'Repaircost').
+struct_dt_elem_i([ 0,6,0 ],7,camelname,'RepairCost').
+struct_dt_elem_i([ 0,6,0 ],7,length,4).
+struct_dt_elem_i([ 0,6,0 ],7,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],7,sign,0).
+struct_dt_elem_i([ 0,6,0 ],7,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],7,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],7,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],7,attributeid,'26').
+struct_dt_elem_i([ 0,6,0 ],7,'ExternalName','RepairCost').
+struct_dt_elem_i([ 0,6,0 ],7,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],8,name,'Technicianid').
+struct_dt_elem_i([ 0,6,0 ],8,camelname,'TechnicianId').
+struct_dt_elem_i([ 0,6,0 ],8,length,4).
+struct_dt_elem_i([ 0,6,0 ],8,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],8,sign,0).
+struct_dt_elem_i([ 0,6,0 ],8,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],8,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],8,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],8,attributeid,'27').
+struct_dt_elem_i([ 0,6,0 ],8,'ExternalName','TechnicianId').
+struct_dt_elem_i([ 0,6,0 ],8,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],9,name,'Technicianname').
+struct_dt_elem_i([ 0,6,0 ],9,camelname,'TechnicianName').
+struct_dt_elem_i([ 0,6,0 ],9,basedon,85).
+struct_dt_elem_i([ 0,6,0 ],9,length,50).
+struct_dt_elem_i([ 0,6,0 ],9,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],9,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,6,0 ],9,pic,'').
+struct_dt_elem_i([ 0,6,0 ],9,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],9,attributeid,'28').
+struct_dt_elem_i([ 0,6,0 ],9,'ExternalName','TechnicianName').
+struct_dt_elem_i([ 0,6,0 ],9,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],10,name,'Repairalternatetechnicianid').
+struct_dt_elem_i([ 0,6,0 ],10,camelname,'RepairAlternateTechnicianId').
+struct_dt_elem_i([ 0,6,0 ],10,length,4).
+struct_dt_elem_i([ 0,6,0 ],10,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],10,sign,0).
+struct_dt_elem_i([ 0,6,0 ],10,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],10,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],10,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],10,attributeid,'29').
+struct_dt_elem_i([ 0,6,0 ],10,'ExternalName','RepairAlternateTechnicianId').
+struct_dt_elem_i([ 0,6,0 ],10,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],11,name,'Repairalternatetechnicianname').
+struct_dt_elem_i([ 0,6,0 ],11,camelname,'RepairAlternateTechnicianName').
+struct_dt_elem_i([ 0,6,0 ],11,basedon,85).
+struct_dt_elem_i([ 0,6,0 ],11,length,50).
+struct_dt_elem_i([ 0,6,0 ],11,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],11,type,[ 5,50,0 ]).
+struct_dt_elem_i([ 0,6,0 ],11,pic,'').
+struct_dt_elem_i([ 0,6,0 ],11,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],11,attributeid,'30').
+struct_dt_elem_i([ 0,6,0 ],11,'ExternalName','RepairAlternateTechnicianName').
+struct_dt_elem_i([ 0,6,0 ],11,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],12,name,'Repairdiscountpercentage').
+struct_dt_elem_i([ 0,6,0 ],12,camelname,'RepairDiscountPercentage').
+struct_dt_elem_i([ 0,6,0 ],12,basedon,88).
+struct_dt_elem_i([ 0,6,0 ],12,length,3).
+struct_dt_elem_i([ 0,6,0 ],12,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],12,sign,0).
+struct_dt_elem_i([ 0,6,0 ],12,type,[ 4,3,0 ]).
+struct_dt_elem_i([ 0,6,0 ],12,pic,'ZZ9').
+struct_dt_elem_i([ 0,6,0 ],12,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],12,attributeid,'31').
+struct_dt_elem_i([ 0,6,0 ],12,'ExternalName','RepairDiscountPercentage').
+struct_dt_elem_i([ 0,6,0 ],12,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],13,name,'Repairfinalcost').
+struct_dt_elem_i([ 0,6,0 ],13,camelname,'RepairFinalCost').
+struct_dt_elem_i([ 0,6,0 ],13,length,4).
+struct_dt_elem_i([ 0,6,0 ],13,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],13,sign,0).
+struct_dt_elem_i([ 0,6,0 ],13,type,[ 4,4,0 ]).
+struct_dt_elem_i([ 0,6,0 ],13,pic,'ZZZ9').
+struct_dt_elem_i([ 0,6,0 ],13,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],13,attributeid,'32').
+struct_dt_elem_i([ 0,6,0 ],13,'ExternalName','RepairFinalCost').
+struct_dt_elem_i([ 0,6,0 ],13,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],14,name,'Repairproblems').
+struct_dt_elem_i([ 0,6,0 ],14,camelname,'RepairProblems').
+struct_dt_elem_i([ 0,6,0 ],14,length,1).
+struct_dt_elem_i([ 0,6,0 ],14,decimals,0).
+struct_dt_elem_i([ 0,6,0 ],14,sign,0).
+struct_dt_elem_i([ 0,6,0 ],14,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,6,0 ],14,pic,'9').
+struct_dt_elem_i([ 0,6,0 ],14,collection,'False').
+struct_dt_elem_i([ 0,6,0 ],14,attributeid,'36').
+struct_dt_elem_i([ 0,6,0 ],14,'ExternalName','RepairProblems').
+struct_dt_elem_i([ 0,6,0 ],14,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,0 ],15,name,'Kind').
+struct_dt_elem_i([ 0,6,0 ],15,camelname,'Kind').
+struct_dt_elem_i([ 0,6,0 ],15,type,[ [ 0,6,[ 22,33 ] ],0,0 ]).
+struct_dt_elem_i([ 0,6,0 ],15,pic,'').
+struct_dt_elem_i([ 0,6,0 ],15,collection,'True').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,name,'Repairkindid').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,camelname,'RepairKindId').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,length,1).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,decimals,0).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,sign,0).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,type,[ 4,1,0 ]).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,pic,'9').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,collection,'False').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,attributeid,'33').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,'ExternalName','RepairKindId').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],1,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,name,'Repairkindname').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,camelname,'RepairKindName').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,basedon,89).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,length,1).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,decimals,0).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,type,[ 5,1,0 ]).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,pic,'').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,collection,'False').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,attributeid,'37').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,'ExternalName','RepairKindName').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],2,'ExternalNamespace','Parksz').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,name,'Repairkindremarks').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,camelname,'RepairKindRemarks').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,length,120).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,decimals,0).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,type,[ 5,120,0 ]).
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,pic,'').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,collection,'False').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,attributeid,'35').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,'ExternalName','RepairKindRemarks').
+struct_dt_elem_i([ 0,6,[ 22,33 ] ],3,'ExternalNamespace','Parksz').
+ 
+ 
+ 
+ 
+ 
+ 
+module_info_i('GeneXus\Common','CSHARP_NAME_SPACE','GeneXus.Core').
+module_info_i('GeneXus\Common','AssemblyName','GeneXus.dll').

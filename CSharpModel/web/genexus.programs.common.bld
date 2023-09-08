@@ -1,0 +1,12 @@
+GeneXus.dll
+GxWebStd.cs
+GxWebServicesConfig.cs
+SoapParm.cs
+GxObjectCollection.cs
+GxFullTextSearchReindexer.cs
+GxModelInfoProvider.cs
+@genexus.programs.sdt.bld
+type_SdtRepair.cs
+type_SdtRepair_Kind.cs
+gxdomainpage.cs
+gxdomainkindname.cs

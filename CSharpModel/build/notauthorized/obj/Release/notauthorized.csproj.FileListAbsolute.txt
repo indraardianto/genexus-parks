@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\notauthorized.dll
+C:\KB\Parksz\CSharpModel\build\notauthorized\obj\Release\notauthorized.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\notauthorized\obj\Release\notauthorized.dll

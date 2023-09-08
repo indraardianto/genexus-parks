@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\aamusementlistbycountry.dll
+C:\KB\Parksz\CSharpModel\build\aamusementlistbycountry\obj\Release\aamusementlistbycountry.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\aamusementlistbycountry\obj\Release\aamusementlistbycountry.dll

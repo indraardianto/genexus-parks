@@ -1,0 +1,6 @@
+domain_i(86,'gxdomainpage.cs').
+domain_i(89,'gxdomainkindname.cs').
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,6,[ 22,33 ] ]).
+ext_sdt_map_i(15,'GeneXus.dll',[ 0,6,0 ]).
+sdt_map_i(15,'Repair',[ 0,6,0 ]).
+sdt_map_i(15,'Repair.Kind',[ 0,6,[ 22,33 ] ]).

@@ -1,0 +1,185 @@
+
+<ObjectSpec>
+<SpecVersion>17_0_8-158023</SpecVersion>
+<Object>
+<ObjClsGuid>1db606f2-af09-4cf9-a3b5-b481519d28f6</ObjClsGuid>
+<ObjCls>0</ObjCls>
+<ObjId>1</ObjId>
+<ObjName>Employee</ObjName>
+<ObjDesc>Employee</ObjDesc>
+<ObjPgmName>Employee</ObjPgmName>
+<ObjClsName>Transaction</ObjClsName></Object>
+<Result>nogenreq</Result>
+<Warnings></Warnings>
+<Errors></Errors>
+<Generator>
+<GenId>15</GenId>
+<GenName>Default (.NET Framework)</GenName></Generator>
+<FormClass>HTML</FormClass>
+<Parameters></Parameters>
+<Levels>
+<Level>
+<LevelType>Trn</LevelType>
+<LevelNumber>1</LevelNumber>
+<BaseTable>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description></Table></BaseTable>
+<NavigationTree>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description>
+<Updated>Yes</Updated>
+<RecordsToRead>many</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmployeeId</AttriName>
+<Description>Employee Id</Description></Attribute></KeyAttributes>
+<Tables>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description>
+<RecordsToRead>one</RecordsToRead>
+<KeyAttributes>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></KeyAttributes>
+<JoinType>Outer</JoinType>
+<Tables></Tables></Table></Tables></Table></NavigationTree>
+<Formulas>
+<VerticalFormulas></VerticalFormulas>
+<AggSelFormulas></AggSelFormulas></Formulas>
+<DynamicLoads></DynamicLoads>
+<Rules></Rules>
+<AfterAttributeRules></AfterAttributeRules>
+<AfterConfirmRules></AfterConfirmRules>
+<TablesToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description></Table>
+<TableAction>insert</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>EmployeeName</AttriName>
+<Description>Employee Name</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>EmployeeLastName</AttriName>
+<Description>Employee Last Name</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>EmployeeAddress</AttriName>
+<Description>Employee Address</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>EmployeePhone</AttriName>
+<Description>Employee Phone</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>EmployeeEmail</AttriName>
+<Description>Employee Email</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>EmployeeAddedDate</AttriName>
+<Description>Employee Added Date</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description></Table>
+<TableAction>update</TableAction>
+<AttrisToUpdate>
+<Attribute>
+<AttriId>2</AttriId>
+<AttriName>EmployeeName</AttriName>
+<Description>Employee Name</Description></Attribute>
+<Attribute>
+<AttriId>3</AttriId>
+<AttriName>EmployeeLastName</AttriName>
+<Description>Employee Last Name</Description></Attribute>
+<Attribute>
+<AttriId>4</AttriId>
+<AttriName>EmployeeAddress</AttriName>
+<Description>Employee Address</Description></Attribute>
+<Attribute>
+<AttriId>5</AttriId>
+<AttriName>EmployeePhone</AttriName>
+<Description>Employee Phone</Description></Attribute>
+<Attribute>
+<AttriId>6</AttriId>
+<AttriName>EmployeeEmail</AttriName>
+<Description>Employee Email</Description></Attribute>
+<Attribute>
+<AttriId>21</AttriId>
+<AttriName>EmployeeAddedDate</AttriName>
+<Description>Employee Added Date</Description></Attribute>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></AttrisToUpdate></TableToUpdate>
+<TableToUpdate>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description></Table>
+<TableAction>delete</TableAction>
+<AttrisToUpdate></AttrisToUpdate></TableToUpdate></TablesToUpdate>
+<AfterInsertRules></AfterInsertRules>
+<AfterUpdateRules></AfterUpdateRules>
+<AfterDeleteRules></AfterDeleteRules>
+<TablesToControlOnDelete></TablesToControlOnDelete>
+<Levels></Levels>
+<AfterTrnRules></AfterTrnRules>
+<AfterLevelRules></AfterLevelRules></Level></Levels>
+<Prompts>
+<Prompt>
+<Table>
+<TableId>2</TableId>
+<TableName>AmusementPark</TableName>
+<Description>Amusement Park</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>8</ObjId>
+<ObjName>Gx0020</ObjName>
+<ObjPgmName>Gx0020</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>7</AttriId>
+<AttriName>AmusementParkId</AttriName>
+<Description>Amusement Park Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt>
+<Prompt>
+<Table>
+<TableId>1</TableId>
+<TableName>Employee</TableName>
+<Description>Employee</Description></Table>
+<Object>
+<ObjClsGuid>c9584656-94b6-4ccd-890f-332d11fc2c25</ObjClsGuid>
+<ObjCls>13</ObjCls>
+<ObjId>7</ObjId>
+<ObjName>Gx0010</ObjName>
+<ObjPgmName>Gx0010</ObjPgmName>
+<ObjClsName>Web Panel</ObjClsName></Object>
+<InputParameters></InputParameters>
+<OutputParameters>
+<Attribute>
+<AttriId>1</AttriId>
+<AttriName>EmployeeId</AttriName>
+<Description>Employee Id</Description></Attribute></OutputParameters>
+<PromptType>System</PromptType></Prompt></Prompts>
+<Suggests></Suggests></ObjectSpec>

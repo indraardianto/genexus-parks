@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\acountrieslist.dll
+C:\KB\Parksz\CSharpModel\build\acountrieslist\obj\Release\acountrieslist.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\acountrieslist\obj\Release\acountrieslist.dll

@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\amusementparkgeneral.dll
+C:\KB\Parksz\CSharpModel\build\amusementparkgeneral\obj\Release\amusementparkgeneral.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\amusementparkgeneral\obj\Release\amusementparkgeneral.dll

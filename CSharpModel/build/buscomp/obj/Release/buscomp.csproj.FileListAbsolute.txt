@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\buscomp.dll
+C:\KB\Parksz\CSharpModel\build\buscomp\obj\Release\buscomp.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\buscomp\obj\Release\buscomp.dll

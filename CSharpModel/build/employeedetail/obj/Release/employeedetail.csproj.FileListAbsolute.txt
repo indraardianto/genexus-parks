@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\employeedetail.dll
+C:\KB\Parksz\CSharpModel\build\employeedetail\obj\Release\employeedetail.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\employeedetail\obj\Release\employeedetail.dll

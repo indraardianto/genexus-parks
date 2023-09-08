@@ -1,0 +1,3 @@
+C:\KB\Parksz\CSharpModel\web\bin\appmasterpage.dll
+C:\KB\Parksz\CSharpModel\build\appmasterpage\obj\Release\appmasterpage.csprojResolveAssemblyReference.cache
+C:\KB\Parksz\CSharpModel\build\appmasterpage\obj\Release\appmasterpage.dll
